@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TraditionViewController.h"
 #import "CustomLabelViewController.h"
 #import "CustomViewViewController.h"
 #import "LayoutSubviewsCallbackViewController.h"
@@ -27,17 +28,23 @@
     switch (indexPath.row) {
         case 0:
         {
-            CustomLabelViewController *vc = [[CustomLabelViewController alloc] init];
+            TraditionViewController *vc = [[TraditionViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 1:
         {
-            CustomViewViewController *vc = [[CustomViewViewController alloc] init];
+            CustomLabelViewController *vc = [[CustomLabelViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 2:
+        {
+            CustomViewViewController *vc = [[CustomViewViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3:
         {
             LayoutSubviewsCallbackViewController *vc = [[LayoutSubviewsCallbackViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];

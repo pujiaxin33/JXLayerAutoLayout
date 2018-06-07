@@ -46,7 +46,7 @@
 
     self.nickLabel = ({
         UILabel *label = [[UILabel alloc] init];
-        label.textColor = [UIColor blackColor];
+        label.textColor = [UIColor whiteColor];
         label.font = [UIFont systemFontOfSize:17];
         label.text = @"昵称：路飞";
         label;
@@ -55,7 +55,7 @@
 
     self.fightLabel = ({
         UILabel *label = [[UILabel alloc] init];
-        label.textColor = [UIColor blackColor];
+        label.textColor = [UIColor whiteColor];
         label.font = [UIFont systemFontOfSize:17];
         label.text = @"战斗力：10000000+";
         label;

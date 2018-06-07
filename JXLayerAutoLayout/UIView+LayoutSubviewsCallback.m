@@ -30,6 +30,4 @@
 - (void (^)(UIView *))layoutSubviewsCallback {
     return objc_getAssociatedObject(self, "layoutSubviewsCallback");
 }
-
-
 @end

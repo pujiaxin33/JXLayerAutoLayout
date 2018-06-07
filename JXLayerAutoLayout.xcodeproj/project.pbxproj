@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190A8FD820C930A100DCC6A1 /* TraditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A8FD720C930A100DCC6A1 /* TraditionViewController.m */; };
 		19CF21F820A4572900AD1973 /* CustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF21F720A4572900AD1973 /* CustomLabelViewController.m */; };
 		19CF21FB20A4573300AD1973 /* CustomViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF21FA20A4573300AD1973 /* CustomViewViewController.m */; };
 		19CF21FE20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF21FD20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190A8FD620C930A100DCC6A1 /* TraditionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraditionViewController.h; sourceTree = "<group>"; };
+		190A8FD720C930A100DCC6A1 /* TraditionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraditionViewController.m; sourceTree = "<group>"; };
 		19CF21F620A4572900AD1973 /* CustomLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabelViewController.h; sourceTree = "<group>"; };
 		19CF21F720A4572900AD1973 /* CustomLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabelViewController.m; sourceTree = "<group>"; };
 		19CF21F920A4573300AD1973 /* CustomViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewViewController.h; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				19FC9669209C63A100920441 /* AppDelegate.m */,
 				19FC966B209C63A100920441 /* ViewController.h */,
 				19FC966C209C63A100920441 /* ViewController.m */,
+				190A8FD620C930A100DCC6A1 /* TraditionViewController.h */,
+				190A8FD720C930A100DCC6A1 /* TraditionViewController.m */,
 				19CF21F620A4572900AD1973 /* CustomLabelViewController.h */,
 				19CF21F720A4572900AD1973 /* CustomLabelViewController.m */,
 				19CF21F920A4573300AD1973 /* CustomViewViewController.h */,
@@ -182,6 +187,7 @@
 				19FC966A209C63A100920441 /* AppDelegate.m in Sources */,
 				19FC9680209C63EE00920441 /* CustomLayerView.m in Sources */,
 				19FC9686209C9ACE00920441 /* UIView+LayoutSubviewsCallback.m in Sources */,
+				190A8FD820C930A100DCC6A1 /* TraditionViewController.m in Sources */,
 				19CF21F820A4572900AD1973 /* CustomLabelViewController.m in Sources */,
 				19FC9689209C9F8400920441 /* CustomLabel.m in Sources */,
 			);

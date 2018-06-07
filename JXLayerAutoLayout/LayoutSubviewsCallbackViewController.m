@@ -22,9 +22,9 @@
 
     self.testLabel = ({
         UILabel *label = [[UILabel alloc] init];
-        label.textColor = [UIColor blackColor];
+        label.textColor = [UIColor whiteColor];
         label.font = [UIFont systemFontOfSize:17];
-        label.text = @"  测试文本，欢迎测试  ";
+        label.text = @"  这是一个有渐变背景色的UILabel  ";
         label;
     });
 
