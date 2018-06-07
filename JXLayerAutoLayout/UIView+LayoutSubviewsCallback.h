@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIView+LayoutSubviewsCallback.h
 //  JXLayerAutoLayout
 //
 //  Created by jiaxin on 2018/5/4.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface UIView (LayoutSubviewsCallback)
 
+@property (nonatomic, copy) void(^layoutSubviewsCallback)(UIView *view);
 
 @end
-

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomLayerView.h
 //  JXLayerAutoLayout
 //
 //  Created by jiaxin on 2018/5/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface CustomLayerView : UIView
 
 @end
-

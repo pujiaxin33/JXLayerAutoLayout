@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "CustomLabelViewController.h"
+#import "CustomViewViewController.h"
+#import "LayoutSubviewsCallbackViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +19,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+        case 0:
+        {
+            CustomLabelViewController *vc = [[CustomLabelViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 1:
+        {
+            CustomViewViewController *vc = [[CustomViewViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 2:
+        {
+            LayoutSubviewsCallbackViewController *vc = [[LayoutSubviewsCallbackViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
 }
-
 
 @end

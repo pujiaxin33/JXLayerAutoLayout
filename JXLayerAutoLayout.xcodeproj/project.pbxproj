@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19CF21F820A4572900AD1973 /* CustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF21F720A4572900AD1973 /* CustomLabelViewController.m */; };
+		19CF21FB20A4573300AD1973 /* CustomViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF21FA20A4573300AD1973 /* CustomViewViewController.m */; };
+		19CF21FE20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF21FD20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m */; };
+		19CF220020A4597900AD1973 /* lufei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19CF21FF20A4597900AD1973 /* lufei.jpg */; };
 		19FC966A209C63A100920441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC9669209C63A100920441 /* AppDelegate.m */; };
 		19FC966D209C63A100920441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC966C209C63A100920441 /* ViewController.m */; };
 		19FC9670209C63A100920441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FC966E209C63A100920441 /* Main.storyboard */; };
 		19FC9672209C63A200920441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC9671209C63A200920441 /* Assets.xcassets */; };
 		19FC9675209C63A200920441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FC9673209C63A200920441 /* LaunchScreen.storyboard */; };
 		19FC9678209C63A200920441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC9677209C63A200920441 /* main.m */; };
+		19FC9680209C63EE00920441 /* CustomLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC967F209C63EE00920441 /* CustomLayerView.m */; };
+		19FC9686209C9ACE00920441 /* UIView+LayoutSubviewsCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC9685209C9ACE00920441 /* UIView+LayoutSubviewsCallback.m */; };
+		19FC9689209C9F8400920441 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC9688209C9F8400920441 /* CustomLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19CF21F620A4572900AD1973 /* CustomLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabelViewController.h; sourceTree = "<group>"; };
+		19CF21F720A4572900AD1973 /* CustomLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabelViewController.m; sourceTree = "<group>"; };
+		19CF21F920A4573300AD1973 /* CustomViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewViewController.h; sourceTree = "<group>"; };
+		19CF21FA20A4573300AD1973 /* CustomViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewViewController.m; sourceTree = "<group>"; };
+		19CF21FC20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutSubviewsCallbackViewController.h; sourceTree = "<group>"; };
+		19CF21FD20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutSubviewsCallbackViewController.m; sourceTree = "<group>"; };
+		19CF21FF20A4597900AD1973 /* lufei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufei.jpg; sourceTree = "<group>"; };
 		19FC9665209C63A100920441 /* JXLayerAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXLayerAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FC9668209C63A100920441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19FC9669209C63A100920441 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,12 @@
 		19FC9674209C63A200920441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FC9676209C63A200920441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FC9677209C63A200920441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19FC967E209C63EE00920441 /* CustomLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLayerView.h; sourceTree = "<group>"; };
+		19FC967F209C63EE00920441 /* CustomLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLayerView.m; sourceTree = "<group>"; };
+		19FC9684209C9ACE00920441 /* UIView+LayoutSubviewsCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutSubviewsCallback.h"; sourceTree = "<group>"; };
+		19FC9685209C9ACE00920441 /* UIView+LayoutSubviewsCallback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutSubviewsCallback.m"; sourceTree = "<group>"; };
+		19FC9687209C9F8400920441 /* CustomLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		19FC9688209C9F8400920441 /* CustomLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +82,24 @@
 				19FC9669209C63A100920441 /* AppDelegate.m */,
 				19FC966B209C63A100920441 /* ViewController.h */,
 				19FC966C209C63A100920441 /* ViewController.m */,
+				19CF21F620A4572900AD1973 /* CustomLabelViewController.h */,
+				19CF21F720A4572900AD1973 /* CustomLabelViewController.m */,
+				19CF21F920A4573300AD1973 /* CustomViewViewController.h */,
+				19CF21FA20A4573300AD1973 /* CustomViewViewController.m */,
+				19CF21FC20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.h */,
+				19CF21FD20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m */,
+				19FC967E209C63EE00920441 /* CustomLayerView.h */,
+				19FC967F209C63EE00920441 /* CustomLayerView.m */,
+				19FC9687209C9F8400920441 /* CustomLabel.h */,
+				19FC9688209C9F8400920441 /* CustomLabel.m */,
+				19FC9684209C9ACE00920441 /* UIView+LayoutSubviewsCallback.h */,
+				19FC9685209C9ACE00920441 /* UIView+LayoutSubviewsCallback.m */,
 				19FC966E209C63A100920441 /* Main.storyboard */,
 				19FC9671209C63A200920441 /* Assets.xcassets */,
 				19FC9673209C63A200920441 /* LaunchScreen.storyboard */,
 				19FC9676209C63A200920441 /* Info.plist */,
 				19FC9677209C63A200920441 /* main.m */,
+				19CF21FF20A4597900AD1973 /* lufei.jpg */,
 			);
 			path = JXLayerAutoLayout;
 			sourceTree = "<group>";
@@ -129,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FC9675209C63A200920441 /* LaunchScreen.storyboard in Resources */,
+				19CF220020A4597900AD1973 /* lufei.jpg in Resources */,
 				19FC9672209C63A200920441 /* Assets.xcassets in Resources */,
 				19FC9670209C63A100920441 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FC966D209C63A100920441 /* ViewController.m in Sources */,
+				19CF21FE20A4573E00AD1973 /* LayoutSubviewsCallbackViewController.m in Sources */,
 				19FC9678209C63A200920441 /* main.m in Sources */,
+				19CF21FB20A4573300AD1973 /* CustomViewViewController.m in Sources */,
 				19FC966A209C63A100920441 /* AppDelegate.m in Sources */,
+				19FC9680209C63EE00920441 /* CustomLayerView.m in Sources */,
+				19FC9686209C9ACE00920441 /* UIView+LayoutSubviewsCallback.m in Sources */,
+				19CF21F820A4572900AD1973 /* CustomLabelViewController.m in Sources */,
+				19FC9689209C9F8400920441 /* CustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +323,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NH4B34Z28M;
 				INFOPLIST_FILE = JXLayerAutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +332,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXLayerAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0d6f67d5-3256-4f19-ac31-c12a51e14450";
+				PROVISIONING_PROFILE_SPECIFIER = AnyIDAnyDevice;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +342,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NH4B34Z28M;
 				INFOPLIST_FILE = JXLayerAutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +351,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXLayerAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0d6f67d5-3256-4f19-ac31-c12a51e14450";
+				PROVISIONING_PROFILE_SPECIFIER = AnyIDAnyDevice;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
